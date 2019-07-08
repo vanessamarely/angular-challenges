@@ -20,3 +20,5 @@ En Interpolación se utiliza la sintaxis `{{ valor }}`
 
 A la interpolación, se le conoce como interpolación de cadenas, también conocida en inglés como "string interpolation".
 
+A su sintaxis se le conoce como "moustache syntax" o sintaxis de bigote
+
