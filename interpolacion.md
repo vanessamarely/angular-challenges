@@ -24,3 +24,9 @@ A la interpolación, se le conoce como interpolación de cadenas, también conoc
 
 A su sintaxis se le conoce como "moustache syntax" o sintaxis de bigote
 
+## Reto Básico
+
+{% embed url="https://angular-challenge-interpolation.stackblitz.io" %}
+
+
+
