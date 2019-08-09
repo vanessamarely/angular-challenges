@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Retos en Angular](README.md)
+* [Aprendiendo Angular](README.md)
 * [Interpolación {{}}](interpolacion.md)
 
