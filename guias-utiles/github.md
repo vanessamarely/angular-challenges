@@ -6,7 +6,7 @@ description: En esta página encontraras una guía básica sobre GitHub
 
 ## ¿Qué es GitHub?
 
-GitHub es un sitio web y un servicio en la nube que ayuda a almacenar y administrar el código a los desarrolladores. 
+GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores a almacenar y administrar su código.
 
 Permite llevar un registro y control de cualquier cambio en el código. 
 
