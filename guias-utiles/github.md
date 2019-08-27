@@ -74,3 +74,15 @@ Al seleccionar el botón nos quedará una página con la siguiente información 
 
 ![](../.gitbook/assets/screen-shot-2019-08-26-at-9.58.51-pm.png)
 
+## Recursos
+
+Te recomiendo los siguientes links que pueden ser de mucha utilidad para aprender más de GitHub:
+
+* [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
+* [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
+* [https://try.github.io/](https://try.github.io/)
+* [https://github.com/git-game/git-game](https://github.com/git-game/git-game)
+* [https://github.com/Gazler/githug](https://github.com/Gazler/githug)
+* [http://ningbit.github.io/blog/2013/06/12/8-bit-git-the-challenges-of-creating-a-git-based-game/](http://ningbit.github.io/blog/2013/06/12/8-bit-git-the-challenges-of-creating-a-git-based-game/)
+* [https://datagoodie.com/blog/git-simple-tutorial-explanation-LEVEL-0/](https://datagoodie.com/blog/git-simple-tutorial-explanation-LEVEL-0/)
+
