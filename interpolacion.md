@@ -48,5 +48,21 @@ Expresiones que son devueltas en un método de componente. Lo que devuelva ese m
 
 ## Reto Básico
 
+Vamos a crear una mini galería donde usaremos el concepto de interpolación. 
+
+Para nuestra App vamos a seguir los siguientes pasos:
+
+### Paso 1
+
+Crearemos nuestro "**Hello Angular**", usando **stackblitz**, podemos ver la guía de **Stackblitz** en la sección de "Guias útiles" .
+
+Vamos a la página de **stackblitz.com** y creamos nuestra App de Angular.
+
+![P&#xE1;gina inicial de Stackblitz](.gitbook/assets/screen-shot-2019-08-26-at-8.04.27-pm.png)
+
+![Creamos nuestra App de Angular](.gitbook/assets/screen-shot-2019-08-26-at-8.06.10-pm.png)
+
+![Hello Angular](.gitbook/assets/screen-shot-2019-08-26-at-8.10.54-pm.png)
+
 
 
