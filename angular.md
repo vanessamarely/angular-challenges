@@ -24,11 +24,17 @@ Esta basado en Typescript
 
 Fue desarrollado en el 2009 por [**Miško Hevery**](https://github.com/mhevery), inicialmente se llamaba **AngularJS**, el cual estaba basado en JS. ****
 
-El 14 de septiembre del 2016 fue lanzado Angular 2, que conocemos en la actualidad como **Angular**.
+El 14 de septiembre del 2016 fue lanzado Angular 2, que conocemos en la actualidad como **Angular**, basado en Typescript, el cual fue escrito desde cero.
 
 ## 📋 Características 📋
 
 **Modularidad**: las funcionalidades se empaquetan en módulos, produciendo un núcleo más ligero y más rápido. 📦
 
 **Compatibilidad**: compatible con los navegadores más modernos y recientes. 🆕
+
+**Rapidez**: Mejora la rapidez en las aplicaciones y la nueva versión \(Angular 8\), permite una gran mejora en el rendimiento de las aplicaciones.
+
+**Fácil de aprender**: el Framework es fácil de aprender, es sencillo hacer tu primera App en Angular solo debemos aprender un poco sobre la sintaxis de Angular y algunos conceptos y  crearemos nuestra App de forma sencilla. En el siguiente articulo de interpolación te explicare como hacer tu primera App.
+
+
 
