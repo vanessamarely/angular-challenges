@@ -34,7 +34,11 @@ El 14 de septiembre del 2016 fue lanzado Angular 2, que conocemos en la actualid
 
 **Rapidez**: Mejora la rapidez en las aplicaciones y la nueva versión \(Angular 8\), permite una gran mejora en el rendimiento de las aplicaciones.
 
-**Fácil de aprender**: el Framework es fácil de aprender, es sencillo hacer tu primera App en Angular solo debemos aprender un poco sobre la sintaxis de Angular y algunos conceptos y  crearemos nuestra App de forma sencilla. En el siguiente articulo de interpolación te explicare como hacer tu primera App.
+**Fácil de aprender**: el Framework es fácil de aprender, es sencillo hacer tu primera App en Angular solo debemos aprender un poco sobre la sintaxis de Angular y algunos conceptos y  crearemos nuestra App de forma sencilla. 
+
+## 
+
+En el siguiente articulo de interpolación te explicare como hacer tu primera Aplicación en Angular. 👇
 
 
 
