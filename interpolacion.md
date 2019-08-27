@@ -148,3 +148,63 @@ Cambiaremos el texto de la variable **name** y pondremos en su lugar el texto In
 
 Duplicamos la etiqueta &lt;img /&gt; 6 veces para tener nuestra galería
 
+![Duplicamos la etiqueta &amp;lt;img /&amp;gt;](.gitbook/assets/screen-shot-2019-08-26-at-9.19.33-pm.png)
+
+### Paso 6
+
+Ahora tenemos una galería con la imagen repetida, podemos tener diferentes imágenes añadiendo en nuestra variable **img** "?results\_per\_page=", esta modificación la hacemos en nuestro **app.component.ts**
+
+{% code-tabs %}
+{% code-tabs-item title="app.component.ts" %}
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: [ './app.component.css' ]
+})
+export class AppComponent  {
+  name = 'Interpolación';
+  img = 'https://thecatapi.com/api/images/get?format=src&type=gif?results_per_page=';
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+En nuestro HTML a la variable **img** le podemos concatenar un número para que la imagen de nuestro gato cambie.
+
+{% code-tabs %}
+{% code-tabs-item title="app.component.html" %}
+```markup
+<h1>{{name}}</h1>
+<h2>Reto básico</h2>
+
+<img src="{{img+1}}" />
+<img src="{{img+2}}" />
+<img src="{{img+3}}" />
+<img src="{{img+4}}" />
+<img src="{{img+5}}" />
+<img src="{{img+6}}" />
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+![Concatenamos un n&#xFA;mero a la variable img](.gitbook/assets/screen-shot-2019-08-26-at-9.17.04-pm.png)
+
+Podemos cambiar el css de las imágenes para poder ver nuestras imágenes con el mismo alto.
+
+![Editando el height](.gitbook/assets/screen-shot-2019-08-26-at-9.08.01-pm.png)
+
+Podemos editar más el CSS para hacer nuestra galería mucho más bonita, pero esto te queda de tarea. 
+
+Podemos usar más conceptos de Angular como las directivas para evitar duplicar las etiquetas &lt;img /&gt;, pero esto lo veremos en el próximo articulo. 
+
+## Demo!!! 
+
+Puedes ver el ejercicio completo en la siguiente:
+
+{% embed url="https://stackblitz.com/edit/interpolacion" %}
+
+
+
