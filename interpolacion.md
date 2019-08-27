@@ -70,3 +70,27 @@ Vamos a ir al archivo "**app.component.html**", seleccionamos el contenido y lo 
 
 ![Seleccionamos el contenido y lo borramos](.gitbook/assets/screen-shot-2019-08-26-at-8.15.11-pm.png)
 
+### Paso 3
+
+En el archivo **app.component.html** vamos a colocar unas etiquetas para los títulos y una para una imagen. 
+
+Vamos a incluir en nuestra imagen la siguiente url de un gif animado: [https://cdn2.thecatapi.com/images/49f.gif](https://cdn2.thecatapi.com/images/49f.gif)
+
+![](https://cdn2.thecatapi.com/images/49f.gif)
+
+Nos queda nuestro archivo con el siguiente código:
+
+{% code-tabs %}
+{% code-tabs-item title="app.component.html" %}
+```text
+<h1>Interpolación</h1>
+<h2>Reto básico</h2>
+<img src="https://cdn2.thecatapi.com/images/49f.gif" />
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
+
+
+
