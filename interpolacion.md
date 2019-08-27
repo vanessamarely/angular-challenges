@@ -48,13 +48,13 @@ Expresiones que son devueltas en un método de componente. Lo que devuelva ese m
 
 ## Reto Básico
 
-Vamos a crear una mini galería doónde usaremos el concepto de interpolación. 
+Vamos a crear una mini galería dónde usaremos el concepto de interpolación. 
 
 Para nuestra App vamos a seguir los siguientes pasos:
 
 ### Paso 1
 
-Crearemos nuestro "**Hello Angular**", usando **stackblitz**, podemos ver la guía de **Stackblitz** en la sección de "Guías útiles" .
+Crearemos nuestro "**Hello Angular**", usando un IDE online como **Stackblitz**, podemos ver la guía de **Stackblitz** en la sección de "Guías útiles" .
 
 Vamos a la página de **stackblitz.com** y creamos nuestra App de Angular.
 
@@ -90,7 +90,61 @@ Nos queda nuestro archivo con el siguiente código:
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+### Paso 4
 
+Hemos añadido nuestra imagen, pero la idea es crear una mini galería con varias imágenes. Podemos duplicar la etiqueta de la imagen y tendríamos algo como esto:
 
+![Duplicamos la etiqueta &amp;lt;img /&amp;gt;](.gitbook/assets/screen-shot-2019-08-26-at-8.35.03-pm.png)
 
+Usaremos la interpolación para la url de la imagen, entonces solo dejaremos una etiqueta de imagen y crearemos una variable en el archivo **app.component.ts**, llamada **img**  donde pondremos la ruta de la imagen.
+
+{% hint style="info" %}
+No modifiques nada más del contenido de **app.component.ts**, la sintaxis que ves en ese archivo es la básica de Angular.
+{% endhint %}
+
+Nos quedará un código como el siguiente:
+
+{% code-tabs %}
+{% code-tabs-item title="app.component.ts" %}
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: [ './app.component.css' ]
+})
+export class AppComponent  {
+  name = 'Angular';
+  img = 'https://cdn2.thecatapi.com/images/49f.gif';
+}
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+Usaremos una API de gifs animados para tener más gifs animados en nuestra etiqueta **&lt;img /&gt;**, colocaremos a nuestra variable **img** la url del API: [https://thecatapi.com/api/images/get?format=src&type=gif](https://thecatapi.com/api/images/get?format=src&type=gif?results_per_page=)
+
+![](.gitbook/assets/screen-shot-2019-08-26-at-8.48.18-pm.png)
+
+### Paso 5
+
+Asignaremos en nuestra etiqueta **&lt;img /&gt;** la url almacenada en nuestra variable.
+
+Cambiaremos el texto de la variable **name** y pondremos en su lugar el texto Interpolación y lo incluiremos en uno de los títulos.
+
+{% code-tabs %}
+{% code-tabs-item title="app.component.html" %}
+```markup
+<h1>{{name}}</h1>
+<h2>Reto básico</h2>
+
+<img src="{{img}}" />
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+![Agregamos las variables en el HTML](.gitbook/assets/screen-shot-2019-08-26-at-9.17.29-pm.png)
+
+Duplicamos la etiqueta &lt;img /&gt; 6 veces para tener nuestra galería
 
