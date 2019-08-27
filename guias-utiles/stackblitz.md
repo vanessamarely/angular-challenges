@@ -28,8 +28,6 @@ Podemos crear una nueva App al darle clic en el botón: "START A NEW APP" y pode
 
 Crearemos nuestra primera App en Angular, seleccionando la opción de Angular y así creamos nuestro "Hello Angular"
 
-![Hello Angular](../.gitbook/assets/screen-shot-2019-08-26-at-9.34.55-pm.png)
-
   
 
 
