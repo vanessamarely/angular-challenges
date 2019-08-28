@@ -15,3 +15,5 @@ description: >-
 
 👋Por eso a través de esta página se pretende dar un recurso con el que puedas ir aprendiendo diferentes conceptos en Angular y donde esa curva que creemos que existe con este Framework sea anulada.
 
+Encontrarás el **Gitbook** en la siguiente URL: [https://github.com/vanessamarely/angular-challenges](https://github.com/vanessamarely/angular-challenges)
+
