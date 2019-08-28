@@ -12,5 +12,5 @@ Soy apasionada por la tecnología y me gusta ayudar y contribuir a la comunidad.
 
 Espero visites mi **Gitbook** y si te gusta, para apoyar mi proyecto espero me des una estrella en mi repositorio:  😀😀😀[https://github.com/vanessamarely/angular-challenges](https://github.com/vanessamarely/angular-challenges)
 
-
+![](.gitbook/assets/vanessa2.png)
 
