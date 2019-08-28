@@ -6,7 +6,7 @@ description: La interpolación es el concepto mas básico que se emplea en Angul
 
 ## ¿Qué es la interpolación?
 
-![](.gitbook/assets/angular-bigote.png)
+![](.gitbook/assets/angular-bigote2.png)
 
 La interpolación es su definición más básica nos permite obtener la información  definida en la lógica y mostrarla en el HTML.
 
