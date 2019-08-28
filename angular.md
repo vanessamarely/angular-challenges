@@ -6,9 +6,9 @@ description: En este articulo tendremos una pequeña Intro al mundo de Angular
 
 ## 🤔 ¿Qué es Angular? 🤔
 
-Es un Framework o plataforma que te permite crear aplicaciones Web o SPA \(**Single Page Applications**\). Creado por Google.
+![](.gitbook/assets/angularhappy%20%281%29.png)
 
-![](.gitbook/assets/angularhappy.png)
+Es un Framework o plataforma que te permite crear aplicaciones Web o SPA \(**Single Page Applications**\). Creado por Google.
 
 ![](.gitbook/assets/google.png)
 
