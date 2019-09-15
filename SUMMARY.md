@@ -3,6 +3,7 @@
 * [✨Aprendiendo Angular 😀💪](README.md)
 * [🅰️ Angular 🅰️](angular.md)
 * [🧔🏻 Interpolación {{}} 🧔🏻](interpolacion.md)
+* [🧱 Componentes 🧱](componentes.md)
 * [Sobre mí 👩‍💻](sobre-mi.md)
 
 ## Guías Utiles
