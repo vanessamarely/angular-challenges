@@ -15,7 +15,7 @@ Si miramos un  componente desde una definición muy básica que es un elemento q
 
 ![Todo es un componente.](.gitbook/assets/componente.png)
 
-Un componente es un elemento reutilizable. Un componente puede ser desde un elemento HTML como un &lt;button&gt; hasta una lista \(&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;\), un &lt;header&gt;, un &lt;section&gt;, o un conjunto de etiquetas o elementos &lt;div&gt; que tengan una funcionalidad en particular.  
+Un componente es un elemento reutilizable. Puede ser desde un elemento HTML como un &lt;button&gt; hasta una lista \(&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;\), un &lt;header&gt;, un &lt;section&gt;, o un conjunto de etiquetas o elementos &lt;div&gt; que tengan una funcionalidad en particular.  
 
 
 {% hint style="info" %}
