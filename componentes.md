@@ -4,7 +4,7 @@ description: >-
   este articulo espero darte una introducción de ellos.
 ---
 
-# 🧱 Componentes 🧱
+# 🎈Componentes 🎈
 
 Existen muchos conceptos básicos de Angular que se pueden mirar individualmente, aunque también conviene conocerla desde sus entrañas. Desde allí, una aplicación en Angular está compuesta por un conjunto de componentes y servicios, pero en esta sección vamos a abordar a los primeros.
 

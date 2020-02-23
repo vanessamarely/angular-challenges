@@ -80,15 +80,13 @@ Vamos a incluir en nuestra imagen la siguiente url de un gif animado: [https://c
 
 Nos queda nuestro archivo con el siguiente código:
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.html" %}
+{% code title="app.component.html" %}
 ```text
 <h1>Interpolación</h1>
 <h2>Reto básico</h2>
 <img src="https://cdn2.thecatapi.com/images/49f.gif" />
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Paso 4
 
@@ -104,8 +102,7 @@ No modifiques nada más del contenido de **app.component.ts**, la sintaxis que v
 
 Nos quedará un código como el siguiente:
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.ts" %}
+{% code title="app.component.ts" %}
 ```typescript
 import { Component } from '@angular/core';
 
@@ -120,8 +117,7 @@ export class AppComponent  {
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Usaremos una API de gifs animados para tener más gifs animados en nuestra etiqueta **&lt;img /&gt;**, colocaremos a nuestra variable **img** la url del API: [https://thecatapi.com/api/images/get?format=src&type=gif](https://thecatapi.com/api/images/get?format=src&type=gif?results_per_page=)
 
@@ -133,16 +129,14 @@ Asignaremos en nuestra etiqueta **&lt;img /&gt;** la url almacenada en nuestra v
 
 Cambiaremos el texto de la variable **name** y pondremos en su lugar el texto Interpolación y lo incluiremos en uno de los títulos.
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.html" %}
+{% code title="app.component.html" %}
 ```markup
 <h1>{{name}}</h1>
 <h2>Reto básico</h2>
 
 <img src="{{img}}" />
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ![Agregamos las variables en el HTML](.gitbook/assets/screen-shot-2019-08-26-at-9.17.29-pm.png)
 
@@ -154,8 +148,7 @@ Duplicamos la etiqueta &lt;img /&gt; 6 veces para tener nuestra galería
 
 Ahora tenemos una galería con la imagen repetida, podemos tener diferentes imágenes añadiendo en nuestra variable **img** "?results\_per\_page=", esta modificación la hacemos en nuestro **app.component.ts**
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.ts" %}
+{% code title="app.component.ts" %}
 ```typescript
 import { Component } from '@angular/core';
 
@@ -169,13 +162,11 @@ export class AppComponent  {
   img = 'https://thecatapi.com/api/images/get?format=src&type=gif?results_per_page=';
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 En nuestro HTML a la variable **img** le podemos concatenar un número para que la imagen de nuestro gato cambie.
 
-{% code-tabs %}
-{% code-tabs-item title="app.component.html" %}
+{% code title="app.component.html" %}
 ```markup
 <h1>{{name}}</h1>
 <h2>Reto básico</h2>
@@ -187,8 +178,7 @@ En nuestro HTML a la variable **img** le podemos concatenar un número para que 
 <img src="{{img+5}}" />
 <img src="{{img+6}}" />
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ![Concatenamos un n&#xFA;mero a la variable img](.gitbook/assets/screen-shot-2019-08-26-at-9.17.04-pm.png)
 
