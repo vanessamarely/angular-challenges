@@ -74,7 +74,7 @@ Desde el Angular CLI podemos generar una directiva usando el siguiente comando:
 ng generate directive <name> [options]
 ```
 
-En su forma abreviada seria:
+En su forma abreviada sería:
 
 ```text
 ng g d [name]
