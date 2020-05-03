@@ -4,7 +4,7 @@ description: >-
   extender nuestro HTML y darle un toque único que veremos a continuación.
 ---
 
-# 👮Directivas👮
+# 🧑‍🎨Directivas🧑‍🎨
 
 ## ¿Qué es una Directiva?
 

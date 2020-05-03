@@ -4,7 +4,7 @@
 * [🅰️ Angular 🅰️](angular.md)
 * [🧔🏻 Interpolación {{}} 🧔🏻](interpolacion.md)
 * [🎈Componentes 🎈](componentes.md)
-* [👮Directivas👮](directivas.md)
+* [🧑‍🎨Directivas🧑‍🎨](directivas.md)
 * [Sobre mí 👩‍💻](sobre-mi.md)
 
 ## Guías Utiles
