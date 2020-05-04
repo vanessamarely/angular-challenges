@@ -6,7 +6,7 @@ description: "Me da gusto que estes interesado en conocer mi Gitbook \U0001F44D"
 
 Mi nombre es [Vanessa Marely Aristizabal Angel](https://twitter.com/vanessamarely), soy Frontend Developer, organizadora de comunidades como [`GDG Medellín`](https://twitter.com/gdgmed)Soy GDE en Angular & Web Technologies.
 
-![](.gitbook/assets/odji8pa1_400x400.jpg)
+![                   GDE Angular &amp; Web Technologies](.gitbook/assets/fotogde%20%281%29.png)
 
 Soy apasionada por la tecnología y me gusta ayudar y contribuir a la comunidad.
 
