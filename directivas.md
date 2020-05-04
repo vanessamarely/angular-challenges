@@ -30,6 +30,8 @@ Se dividen en tres tipos diferentes:
 
 Alteran la apariencia o comportamiento de un elemento del DOM. Son usados como atributos de los elementos.
 
+![](.gitbook/assets/directivas-atributo.png)
+
 Entre la directivas de atributo, encontramos:
 
 * **ngModel**: Implementa binding
@@ -39,6 +41,8 @@ Entre la directivas de atributo, encontramos:
 ### Directivas Estructurales
 
 Nos permite añadir, manipular o eliminar  elementos del DOM.
+
+![](.gitbook/assets/directivas-estructurales.png)
 
 Algunas directivas estructurales tienen un asterisco \(\*\), que precede al nombre del atributo de la directiva.
 
