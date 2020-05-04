@@ -40,7 +40,7 @@ Entre la directivas de atributo, encontramos:
 
 Nos permite añadir, manipular o eliminar  elementos del DOM.
 
-Algunas directivas estructurales tiene un asterisco \(\*\), que precede al nombre del atributo de la directiva.
+Algunas directivas estructurales tienen un asterisco \(\*\), que precede al nombre del atributo de la directiva.
 
 En las directivas estructurales podemos encontrar las siguientes:
 
