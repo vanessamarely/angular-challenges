@@ -44,7 +44,7 @@ Algunas directivas estructurales tienen un asterisco \(\*\), que precede al nomb
 
 En las directivas estructurales podemos encontrar las siguientes:
 
-* **\*ngIf**: Nos permite incluir condicionales de lógica en nuestro código, como por ejemplo evaluar sentencias, hacer comparaciones, mostrar u ocultar secciones de código, y entre las muchas condiciones que deseemos crear, para que se renderice nuestro HTML, cumpliendo la sentencia a evaluar. Con el \*ngIf, podemos evaluar sentencias con un simple If, podemos evaluar el **else**, para que no cumpliéndose la primera condición que se evalúa nuestro código ejecute otra acción en el caso contrario y podemos además incluir el **then**, para que cumpliendose la condición afirmativa \(if\), podamos añadir más flexibilidad a nuestro código incluyéndole un camino afirmativo adicional.
+* **\*ngIf**: Nos permite incluir condicionales de lógica en nuestro código, como por ejemplo evaluar sentencias, hacer comparaciones, mostrar u ocultar secciones de código, y entre las muchas condiciones que deseemos crear, para que se renderice nuestro HTML, cumpliendo la sentencia a evaluar. Con el \*ngIf, podemos evaluar sentencias con un simple If, podemos evaluar el **else**, para que no cumpliéndose la primera condición que se evalúa nuestro código ejecute otra acción en el caso contrario y podemos además incluir el **then**, para que cumpliendose la condición afirmativa \(if\), podemos añadir más flexibilidad a nuestro código incluyéndole un camino afirmativo adicional.
 
 ![Ejemplo \*ngIF](.gitbook/assets/carbon-5.png)
 
