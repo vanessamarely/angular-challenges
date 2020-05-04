@@ -56,17 +56,13 @@ En las directivas estructurales podemos encontrar las siguientes:
 
 
 
-```text
-
-```
-
 * **ngSwitch**: esta directiva es similar al **\*ngIf**, y es como el switch en lógica de programación. En esta directiva se pueden crear los diferentes casos que deseamos evaluar y cuando se cumple la condición esperada, oculta/muestra el HTML. Nos permite mantener nuestro código más limpio, si necesitamos evaluar varias sentencias.
 
 ![Ejemplo ngSwitch](.gitbook/assets/carbon-6.png)
 
 ### 
 
-* **ngPlural**: es una directiva que permita agregar o remover elementos del DOM, basado en valor númerico. Para usar esta directiva, se debe proporcionar un elemento contenedor que establezca el atributo \[ngPlural\] en una expresión de cambio. Los elementos internos con un \[ngPluralCase\] ​​se mostrarán en función de su expresión. Si \[ngPluralCase\] ​​se establece en una expresión \(que comience con = o ‘&gt;’ o ‘&lt;’ etc.\), el elemento se mostrará, si el valor es igual a la expresión. Para mostrar valores por defecto se puede usar el string “other”.
+* **ngPlural**: es una directiva que permite agregar o remover elementos del DOM, basado en un valor númerico. Para usar esta directiva, se debe proporcionar un elemento contenedor que establezca el atributo \[ngPlural\] en una expresión de cambio. Los elementos internos con un \[ngPluralCase\] ​​se mostrarán en función de su expresión. Si \[ngPluralCase\] ​​se establece en una expresión \(que comience con = o ‘&gt;’ o ‘&lt;’ etc.\), el elemento se mostrará, si el valor es igual a la expresión. Para mostrar valores por defecto se puede usar el string “other”.
 
 ![Ejemplo ngPlural](.gitbook/assets/carbon-7.png)
 
