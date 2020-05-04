@@ -62,6 +62,24 @@ En las directivas estructurales podemos encontrar las siguientes:
 
 ![Ejemplo ngSwitch](.gitbook/assets/carbon-6.png)
 
+### 
+
+* **ngPlural**: es una directiva que permita agregar o remover elementos del DOM, basado en valor númerico. Para usar esta directiva, se debe proporcionar un elemento contenedor que establezca el atributo \[ngPlural\] en una expresión de cambio. Los elementos internos con un \[ngPluralCase\] ​​se mostrarán en función de su expresión. Si \[ngPluralCase\] ​​se establece en una expresión \(que comience con = o ‘&gt;’ o ‘&lt;’ etc.\), el elemento se mostrará, si el valor es igual a la expresión. Para mostrar valores por defecto se puede usar el string “other”.
+
+![Ejemplo ngPlural](.gitbook/assets/carbon-7.png)
+
+### 
+
+* ngTemplate: esta directiva como su nombre lo indica es un template en Angular. El contenido de esta etiqueta puede reutilizarse en otros templates. Dentro de la etiqueta ng-template tenemos acceso a las mismas variables de contexto que son visibles en el template exterior, como por ejemplo la variable ‘noSuperHeroes’. Esto se debe a que las instancias de ng-template tienen acceso al mismo contexto en el cual están integradas. Además cada template también puede definir su set de variables.
+
+![Ejemplo ngTemplate](.gitbook/assets/carbon-8.png)
+
+
+
+* **ngComponentOutlet**: nos permite crear componentes dinámicos. 
+
+![Ejemplo ngComponentOutlet](.gitbook/assets/carbon-9.png)
+
 ### Directivas de Componente
 
 Las Directivas de Componente son directivas con un Template. Los componentes tienen decoradores "**@Component"**, el componente es un decorador **@Directive** que es extendido con características propias de los _**templates**_.
