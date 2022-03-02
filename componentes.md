@@ -10,40 +10,41 @@ Existen muchos conceptos básicos de Angular que se pueden mirar individualmente
 
 ## **¿Qué es un Componente?** 📦
 
-Si miramos un  componente desde una definición muy básica que es un elemento que compone a un todo y si lo llevamos a un punto de vista anatómico del ser humano, este puede ser un brazo, una pierna, etc.  
+Si miramos un  componente desde una definición muy básica que es un elemento que compone a un todo y si lo llevamos a un punto de vista anatómico del ser humano, este puede ser un brazo, una pierna, etc.\
 
 
 ![Todo es un componente.](.gitbook/assets/componente.png)
 
-Un componente es un elemento reutilizable. Puede ser desde un elemento HTML como un &lt;button&gt; hasta una lista \(&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;\), un &lt;header&gt;, un &lt;section&gt;, o un conjunto de etiquetas o elementos &lt;div&gt; que tengan una funcionalidad en particular.  
+Un componente es un elemento reutilizable. Puede ser desde un elemento HTML como un \<button> hasta una lista (\<ul>\<li>\</li>\</ul>), un \<header>, un \<section>, o un conjunto de etiquetas o elementos \<div> que tengan una funcionalidad en particular.\
 
 
 {% hint style="info" %}
- Intenta en tus aplicaciones no usar tantos &lt;div&gt; utiliza correctamente la semántica del HTML, con esto quiero decir que es bueno usar elementos &lt;section&gt; o &lt;article&gt; donde los requieres en lugar de poner un &lt;div&gt; que haga las veces de los elementos anteriores.
+&#x20;Intenta en tus aplicaciones no usar tantos \<div> utiliza correctamente la semántica del HTML, con esto quiero decir que es bueno usar elementos \<section> o \<article> donde los requieres en lugar de poner un \<div> que haga las veces de los elementos anteriores.
 {% endhint %}
 
 ## **¿Qué es un componente en Angular?** 🅰️
 
-![Una aplicaci&#xF3;n en Angular esta compuesta de varios componentes](.gitbook/assets/aplicaicon.png)
+![Una aplicación en Angular esta compuesta de varios componentes](.gitbook/assets/aplicaicon.png)
 
 Un componente en Angular es un elemento que está compuesto por:
 
-* Un archivo que será nuestro Template \(app.component.html\), el cual es nuestro HTML, que es el que se va a visualizar en la interfaz de usuario, la vista o en términos más simples lo que vas a ver en la página. 
-* Un archivo de lógica, la cual es la que pondremos en un archivo .ts \(como por ejemplo app.component.ts\), ese archivo debe incluir una clase y esta es la que va a contener las propiedades que se van a usar en la vista \(HTML\) y los métodos que será las acciones que se ejecutarán en la vista. En este archivo de lógica también se incluye una metadata, que es definida con un decorador,  que identifica a Angular como un componente.
-* Un archivo para el CSS \(podemos usar un preprocesador como SASS o LESS\), donde incluiremos los estilos, lo que nos ayuda a hacer bonita nuestra aplicación.
+* Un archivo que será nuestro Template (app.component.html), el cual es nuestro HTML, que es el que se va a visualizar en la interfaz de usuario, la vista o en términos más simples lo que vas a ver en la página.&#x20;
+* Un archivo de lógica, la cual es la que pondremos en un archivo .ts (como por ejemplo app.component.ts), ese archivo debe incluir una clase y esta es la que va a contener las propiedades que se van a usar en la vista (HTML) y los métodos que será las acciones que se ejecutarán en la vista. En este archivo de lógica también se incluye una metadata, que es definida con un decorador,  que identifica a Angular como un componente.
+* Un archivo para el CSS (podemos usar un preprocesador como SASS o LESS), donde incluiremos los estilos, lo que nos ayuda a hacer bonita nuestra aplicación.
 
-![](.gitbook/assets/componente%20%281%29.png)
+![](<.gitbook/assets/componente (1).png>)
 
 {% hint style="info" %}
 La extensión .ts hace alusión a Typescript, el cual es el lenguaje usado en Angular y es un superset de JavaScript.
 {% endhint %}
 
-![Archivo de l&#xF3;gica](.gitbook/assets/screen-shot-2019-09-13-at-10.43.26-pm.png)
+![Archivo de lógica](.gitbook/assets/screen-shot-2019-09-13-at-10.43.26-pm.png)
 
 {% hint style="info" %}
-**¿Qué es un decorador?** 
+**¿Qué es un decorador?**&#x20;
 
-Si vamos a un término muy técnico, un decorador es una implementación de un patrón de diseño de software que permite extender una función dentro de otra función, sin modificar la original de la que se está extendiendo. En términos simples un decorador nos permite decorar una función a la cual deseamos especificarle unos metadatos, en ellos se informa sobre la función y sus comportamientos. Las funciones decoradoras inician por una "@" y a continuación tienen un nombre.  
+Si vamos a un término muy técnico, un decorador es una implementación de un patrón de diseño de software que permite extender una función dentro de otra función, sin modificar la original de la que se está extendiendo. En términos simples un decorador nos permite decorar una función a la cual deseamos especificarle unos metadatos, en ellos se informa sobre la función y sus comportamientos. Las funciones decoradoras inician por una "@" y a continuación tienen un nombre.\
+
 {% endhint %}
 
 Adicional a los dos anteriores que son los principales en nuestro componente podemos ir añadiendo más archivos de acuerdo a la necesidad que tengamos en nuestro proyecto.
@@ -74,22 +75,21 @@ Una vez presionamos enter se nos ha creado un componente nuevo, con la misma est
 
 Cuando estamos creando un proyecto en Angular usando el CLI y ejecutando el siguiente comando:
 
-```text
+```
 ng new my-app
 ```
 
-Creamos toda la estructura inicial de un proyecto en Angular que incluye el componente App.  
+Creamos toda la estructura inicial de un proyecto en Angular que incluye el componente App.\
 Si deseamos crear más componentes solo debemos ejecutar el siguiente comando:
 
-```text
+```
 ng generate component <name> [options]
 
 ```
 
 Se puede usar la forma abreviada:
 
-```text
+```
 ng g c <name> [options]
 
 ```
-

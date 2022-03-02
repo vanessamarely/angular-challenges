@@ -8,9 +8,9 @@ description: En esta página encontraras una guía básica sobre GitHub
 
 GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores a almacenar y administrar su código.
 
-Permite llevar un registro y control de cualquier cambio en el código. 
+Permite llevar un registro y control de cualquier cambio en el código.&#x20;
 
-Hay dos principios importantes que se deben conocer: 
+Hay dos principios importantes que se deben conocer:&#x20;
 
 * Control de Versión
 * Git
@@ -19,7 +19,7 @@ Hay dos principios importantes que se deben conocer:
 
 Nos permite llevar un registro y control del código, permitiendo trabajar de forma segura en los proyectos.
 
-### ¿Qué es Git? 
+### ¿Qué es Git?&#x20;
 
 Git es un **sistema de control específico de versión distribuida**. El código y su historial se encuentran disponibles localmente en la computadora de todo desarrollador.
 
@@ -33,7 +33,7 @@ Construir nuestra cuenta de GitHub es muy sencillo, vamos a seguir los siguiente
 
 **‌**En el navegador de preferencia vamos a colocar: **github.com**
 
-![p&#xE1;gina de inicio de GitHub](../.gitbook/assets/screen-shot-2019-08-26-at-9.38.00-pm.png)
+![página de inicio de GitHub](../.gitbook/assets/screen-shot-2019-08-26-at-9.38.00-pm.png)
 
 ### **Paso 2**
 
@@ -51,9 +51,9 @@ Al diligenciar el formulario damos clic en el botón "Sign up for gitHub" y conf
 
 **‌**Podemos editar nuestro perfil dando clic en el botón "Edit profile".
 
-![Editamos nuestro perfil si damos clic en el bot&#xF3;n](../.gitbook/assets/screen-shot-2019-08-26-at-9.42.25-pm.png)
+![Editamos nuestro perfil si damos clic en el botón](../.gitbook/assets/screen-shot-2019-08-26-at-9.42.25-pm.png)
 
-Editamos el texto del perfil y podemos colocar nuestra ubicación, correo y página personal y guardamos.  
+Editamos el texto del perfil y podemos colocar nuestra ubicación, correo y página personal y guardamos.\
 ****
 
 ![Llenamos los campos](../.gitbook/assets/screen-shot-2019-08-26-at-9.46.35-pm.png)
@@ -64,12 +64,12 @@ Editamos el texto del perfil y podemos colocar nuestra ubicación, correo y pág
 
 ![Seleccionamos el tap de Repositories](../.gitbook/assets/screen-shot-2019-08-26-at-9.55.40-pm.png)
 
-Al seleccionar el botón "**New**" nos aparecerá una página donde vamos a colocar el nombre del repositorio y vamos a dar clic en el botón "**Create repository**"  
+Al seleccionar el botón "**New**" nos aparecerá una página donde vamos a colocar el nombre del repositorio y vamos a dar clic en el botón "**Create repository**"\
 
 
 ![Colocamos el nombre y seleccionamos las opciones](../.gitbook/assets/screen-shot-2019-08-26-at-9.57.30-pm.png)
 
-Al seleccionar el botón nos quedará una página con la siguiente información que podemos usar para subir a GitHub un proyecto existente en ese repositorio o ir creando nuestros archivos e ir subiendolos a este repositorio.  
+Al seleccionar el botón nos quedará una página con la siguiente información que podemos usar para subir a GitHub un proyecto existente en ese repositorio o ir creando nuestros archivos e ir subiendolos a este repositorio.\
 
 
 ![](../.gitbook/assets/screen-shot-2019-08-26-at-9.58.51-pm.png)
@@ -79,10 +79,9 @@ Al seleccionar el botón nos quedará una página con la siguiente información 
 Te recomiendo los siguientes links que pueden ser de mucha utilidad para aprender más de GitHub:
 
 * [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
-* [https://learngitbranching.js.org/](https://learngitbranching.js.org/)
-* [https://try.github.io/](https://try.github.io/)
+* [https://learngitbranching.js.org/](https://learngitbranching.js.org)
+* [https://try.github.io/](https://try.github.io)
 * [https://github.com/git-game/git-game](https://github.com/git-game/git-game)
 * [https://github.com/Gazler/githug](https://github.com/Gazler/githug)
 * [http://ningbit.github.io/blog/2013/06/12/8-bit-git-the-challenges-of-creating-a-git-based-game/](http://ningbit.github.io/blog/2013/06/12/8-bit-git-the-challenges-of-creating-a-git-based-game/)
 * [https://datagoodie.com/blog/git-simple-tutorial-explanation-LEVEL-0/](https://datagoodie.com/blog/git-simple-tutorial-explanation-LEVEL-0/)
-

@@ -4,10 +4,10 @@ description: Es un IDE en la nube que te permite crear aplicaciones en el navega
 
 # ⚡ Stackblitz ⚡
 
-\*\*\*\*[**Stackblitz**](https://stackblitz.com/) es un IDE en la nube que te permite crear aplicaciones Web. Eso quiere decir que ¡no tienes que instalar nada para crear tu aplicación! 😎
+****[**Stackblitz**](https://stackblitz.com) es un IDE en la nube que te permite crear aplicaciones Web. Eso quiere decir que ¡no tienes que instalar nada para crear tu aplicación! 😎
 
 {% hint style="info" %}
-¿Qué es un IDE? es un entorno de desarrollo, es un entorno de programación que ha sido empaquetado, consiste de un editor de código, un compilador, un depurador y un constructor de interfaz gráfica \(GUI\)
+¿Qué es un IDE? es un entorno de desarrollo, es un entorno de programación que ha sido empaquetado, consiste de un editor de código, un compilador, un depurador y un constructor de interfaz gráfica (GUI)
 {% endhint %}
 
 **‌**Vamos a seguir los siguientes pasos para crear nuestra primera App en stackblitz:
@@ -16,7 +16,7 @@ description: Es un IDE en la nube que te permite crear aplicaciones en el navega
 
 **‌**En el navegador de tu preferencia vamos a digitar: stackblitz.com
 
-![P&#xE1;gina inicial de Stackblitz](../.gitbook/assets/screen-shot-2019-08-26-at-9.24.50-pm.png)
+![Página inicial de Stackblitz](../.gitbook/assets/screen-shot-2019-08-26-at-9.24.50-pm.png)
 
 ### **‌Paso 2**
 
@@ -30,6 +30,4 @@ Crearemos nuestra primera App en Angular, seleccionando la opción de Angular y 
 
 ![Hello Angular](../.gitbook/assets/screen-shot-2019-08-26-at-9.34.55-pm.png)
 
-  
-
-
+\

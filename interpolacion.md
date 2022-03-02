@@ -2,7 +2,7 @@
 description: La interpolación es el concepto mas básico que se emplea en Angular.
 ---
 
-# 🧔🏻 Interpolación {{}} 🧔🏻
+# 🧔🏻 Interpolación \{{\}} 🧔🏻
 
 ## ¿Qué es la interpolación?
 
@@ -17,7 +17,7 @@ En Interpolación se utiliza la sintaxis `{{ valor }}`
 ```
 
 {% hint style="info" %}
- se usan las dobles llaves {{}}, que visualmente se parece a un mostacho o bigote.
+&#x20;se usan las dobles llaves \{{\}}, que visualmente se parece a un mostacho o bigote.
 {% endhint %}
 
 A la interpolación, se le conoce como interpolación de cadenas, también conocida en inglés como "string interpolation".
@@ -30,25 +30,25 @@ Cualquier expresión al final de cuentas se convertirá en una cadena y eso es l
 
 Podemos ver expresiones con operaciones matemáticas.
 
-```text
+```
 {{ 2 + 2 }}
 ```
 
 Expresiones con operadores lógico de negación:
 
-```text
+```
 {{ !valor }}
 ```
 
 Expresiones que son devueltas en un método de componente. Lo que devuelva ese método es lo que se colocará en el template.
 
-```text
+```
 {{ metodoComponente() }}
 ```
 
 ## Reto Básico
 
-Vamos a crear una mini galería dónde usaremos el concepto de interpolación. 
+Vamos a crear una mini galería dónde usaremos el concepto de interpolación.&#x20;
 
 Para nuestra App vamos a seguir los siguientes pasos:
 
@@ -58,7 +58,7 @@ Crearemos nuestro "**Hello Angular**", usando un IDE online como **Stackblitz**,
 
 Vamos a la página de **stackblitz.com** y creamos nuestra App de Angular.
 
-![P&#xE1;gina inicial de Stackblitz](.gitbook/assets/screen-shot-2019-08-26-at-8.04.27-pm.png)
+![Página inicial de Stackblitz](.gitbook/assets/screen-shot-2019-08-26-at-8.04.27-pm.png)
 
 ![Creamos nuestra App de Angular](.gitbook/assets/screen-shot-2019-08-26-at-8.06.10-pm.png)
 
@@ -72,7 +72,7 @@ Vamos a ir al archivo "**app.component.html**", seleccionamos el contenido y lo 
 
 ### Paso 3
 
-En el archivo **app.component.html** vamos a colocar unas etiquetas para los títulos y una para una imagen. 
+En el archivo **app.component.html** vamos a colocar unas etiquetas para los títulos y una para una imagen.&#x20;
 
 Vamos a incluir en nuestra imagen la siguiente url de un gif animado: [https://cdn2.thecatapi.com/images/49f.gif](https://cdn2.thecatapi.com/images/49f.gif)
 
@@ -81,7 +81,7 @@ Vamos a incluir en nuestra imagen la siguiente url de un gif animado: [https://c
 Nos queda nuestro archivo con el siguiente código:
 
 {% code title="app.component.html" %}
-```text
+```
 <h1>Interpolación</h1>
 <h2>Reto básico</h2>
 <img src="https://cdn2.thecatapi.com/images/49f.gif" />
@@ -92,9 +92,9 @@ Nos queda nuestro archivo con el siguiente código:
 
 Hemos añadido nuestra imagen, pero la idea es crear una mini galería con varias imágenes. Podemos duplicar la etiqueta de la imagen y tendríamos algo como esto:
 
-![Duplicamos la etiqueta &amp;lt;img /&amp;gt;](.gitbook/assets/screen-shot-2019-08-26-at-8.35.03-pm.png)
+![Duplicamos la etiqueta \<img />](.gitbook/assets/screen-shot-2019-08-26-at-8.35.03-pm.png)
 
-Usaremos la interpolación para la url de la imagen, entonces solo dejaremos una etiqueta de imagen y crearemos una variable en el archivo **app.component.ts**, llamada **img**  donde pondremos la ruta de la imagen.
+Usaremos la interpolación para la url de la imagen, entonces solo dejaremos una etiqueta de imagen y crearemos una variable en el archivo **app.component.ts**, llamada **img** donde pondremos la ruta de la imagen.
 
 {% hint style="info" %}
 No modifiques nada más del contenido de **app.component.ts**, la sintaxis que ves en ese archivo es la básica de Angular.
@@ -119,13 +119,13 @@ export class AppComponent  {
 ```
 {% endcode %}
 
-Usaremos una API de gifs animados para tener más gifs animados en nuestra etiqueta **&lt;img /&gt;**, colocaremos a nuestra variable **img** la url del API: [https://thecatapi.com/api/images/get?format=src&type=gif](https://thecatapi.com/api/images/get?format=src&type=gif?results_per_page=)
+Usaremos una API de gifs animados para tener más gifs animados en nuestra etiqueta **\<img />**, colocaremos a nuestra variable **img** la url del API: [https://thecatapi.com/api/images/get?format=src\&type=gif](https://thecatapi.com/api/images/get?format=src\&type=gif?results\_per\_page=)
 
 ![](.gitbook/assets/screen-shot-2019-08-26-at-8.48.18-pm.png)
 
 ### Paso 5
 
-Asignaremos en nuestra etiqueta **&lt;img /&gt;** la url almacenada en nuestra variable.
+Asignaremos en nuestra etiqueta **\<img />** la url almacenada en nuestra variable.
 
 Cambiaremos el texto de la variable **name** y pondremos en su lugar el texto Interpolación y lo incluiremos en uno de los títulos.
 
@@ -140,9 +140,9 @@ Cambiaremos el texto de la variable **name** y pondremos en su lugar el texto In
 
 ![Agregamos las variables en el HTML](.gitbook/assets/screen-shot-2019-08-26-at-9.17.29-pm.png)
 
-Duplicamos la etiqueta &lt;img /&gt; 6 veces para tener nuestra galería
+Duplicamos la etiqueta \<img /> 6 veces para tener nuestra galería
 
-![Duplicamos la etiqueta &amp;lt;img /&amp;gt;](.gitbook/assets/screen-shot-2019-08-26-at-9.19.33-pm.png)
+![Duplicamos la etiqueta \<img />](.gitbook/assets/screen-shot-2019-08-26-at-9.19.33-pm.png)
 
 ### Paso 6
 
@@ -180,21 +180,19 @@ En nuestro HTML a la variable **img** le podemos concatenar un número para que 
 ```
 {% endcode %}
 
-![Concatenamos un n&#xFA;mero a la variable img](.gitbook/assets/screen-shot-2019-08-26-at-9.17.04-pm.png)
+![Concatenamos un número a la variable img](.gitbook/assets/screen-shot-2019-08-26-at-9.17.04-pm.png)
 
 Podemos cambiar el css de las imágenes para poder ver nuestras imágenes con el mismo alto.
 
 ![Editando el height](.gitbook/assets/screen-shot-2019-08-26-at-9.08.01-pm.png)
 
-Podemos editar más el CSS para hacer nuestra galería mucho más bonita, pero esto te queda de tarea. 
+Podemos editar más el CSS para hacer nuestra galería mucho más bonita, pero esto te queda de tarea.&#x20;
 
-Podemos usar más conceptos de Angular como las directivas para evitar duplicar las etiquetas &lt;img /&gt;, pero esto lo veremos en el próximo articulo. 
+Podemos usar más conceptos de Angular como las directivas para evitar duplicar las etiquetas \<img />, pero esto lo veremos en el próximo articulo.&#x20;
 
-## Demo!!! 
+## Demo!!!&#x20;
 
 Puedes ver el ejercicio completo en la siguiente:
 
 {% embed url="https://stackblitz.com/edit/interpolacion" %}
-
-
 
